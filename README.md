@@ -76,41 +76,41 @@ http://localhost:<port>
 Make sure to replace `<port>` with the actual port number specified in the `.env` file or the default port `8000`.
 
 ## Folder Structure
-📦ChatBook
- ┣ 📂assets
- ┃ ┗ 📂css
- ┃ ┃ ┗ 📜layout.css
- ┣ 📂config
- ┃ ┣ 📜middleware.js
- ┃ ┣ 📜mongoose.js
- ┃ ┣ 📜passport-google-oauth2-strategy.js
- ┃ ┗ 📜passport.js
- ┣ 📂controllers
- ┃ ┣ 📜dashBoardController.js
- ┃ ┗ 📜userController.js
- ┣ 📂DEMO
- ┃ ┣ 📜login.png
- ┃ ┣ 📜signup.png
- ┃ ┗ 📜update.png
- ┣ 📂models
- ┃ ┗ 📜user.js
- ┣ 📂routes
- ┃ ┣ 📜index.js
- ┃ ┗ 📜users.js
- ┣ 📂views
- ┃ ┣ 📜dashboard.ejs
- ┃ ┣ 📜layout.ejs
- ┃ ┣ 📜signin.ejs
- ┃ ┣ 📜signup.ejs
- ┃ ┣ 📜user_profile.ejs
- ┃ ┣ 📜_footer.ejs
- ┃ ┣ 📜_header.ejs
- ┃ ┗ 📜_signupForm.ejs
- ┣ 📜.env
- ┣ 📜.gitignore
- ┣ 📜index.js
- ┣ 📜package-lock.json
- ┣ 📜package.json
+📦ChatBook</br>
+ ┣ 📂assets</br>
+ ┃ ┗ 📂css</br>
+ ┃ ┃ ┗ 📜layout.css</br>
+ ┣ 📂config</br>
+ ┃ ┣ 📜middleware.js</br>
+ ┃ ┣ 📜mongoose.js</br>
+ ┃ ┣ 📜passport-google-oauth2-strategy.js</br>
+ ┃ ┗ 📜passport.js</br>
+ ┣ 📂controllers</br>
+ ┃ ┣ 📜dashBoardController.js</br>
+ ┃ ┗ 📜userController.js</br>
+ ┣ 📂DEMO</br>
+ ┃ ┣ 📜login.png</br>
+ ┃ ┣ 📜signup.png</br>
+ ┃ ┗ 📜update.png</br>
+ ┣ 📂models</br>
+ ┃ ┗ 📜user.js</br>
+ ┣ 📂routes</br>
+ ┃ ┣ 📜index.js</br>
+ ┃ ┗ 📜users.js</br>
+ ┣ 📂views</br>
+ ┃ ┣ 📜dashboard.ejs</br>
+ ┃ ┣ 📜layout.ejs</br>
+ ┃ ┣ 📜signin.ejs</br>
+ ┃ ┣ 📜signup.ejs</br>
+ ┃ ┣ 📜user_profile.ejs</br>
+ ┃ ┣ 📜_footer.ejs</br>
+ ┃ ┣ 📜_header.ejs</br>
+ ┃ ┗ 📜_signupForm.ejs</br>
+ ┣ 📜.env</br>
+ ┣ 📜.gitignore</br>
+ ┣ 📜index.js</br>
+ ┣ 📜package-lock.json</br>
+ ┣ 📜package.json</br>
  ┗ 📜README.md
 
 ## Contributing
