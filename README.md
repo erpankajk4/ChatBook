@@ -122,6 +122,6 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 [ISC License](LICENSE)
 
 ## DEMO
-![login](DEMO/login.png)
-![signup](DEMO/signup.png)
-![update](DEMO/update.png)
+![Image](DEMO/login.png)</hr>
+![Image](DEMO/signup.png)</hr>
+![Image](DEMO/update.png)</hr>
