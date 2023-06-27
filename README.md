@@ -10,7 +10,7 @@ The project is a web application built using Node.js and Express.js for user aut
 - [Features](#features)
 - [Contributing](#contributing)
 - [License](#license)
-- [DEMOS](#demos)
+- [DEMO](#DEMO)
 
 ## NodeJS, ExpressJS, MongoDB, EJS have been used for the development of this App.
 
@@ -53,7 +53,7 @@ The key features of the application include:
 ## Installation
 1. Clone the repository:
 ```
-git clone <repository-url>
+git clone https://github.com/erpankajk4/ChatBook.git
 ```
 2. Navigate to the project directory:
 ```
