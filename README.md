@@ -122,6 +122,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 [ISC License](LICENSE)
 
 ## DEMO
-![Image](DEMO/login.png)</hr>
-![Image](DEMO/signup.png)</hr>
-![Image](DEMO/update.png)</hr>
+![login](https://github.com/erpankajk4/ChatBook/assets/118353291/4e216b22-2d7d-4296-b7e7-553801995238)
+![signup](https://github.com/erpankajk4/ChatBook/assets/118353291/13460a64-9dbf-4962-a5ce-8403f636e31a)
+![update](https://github.com/erpankajk4/ChatBook/assets/118353291/e6c5f9f9-193d-4d15-812b-fae40a3e48aa)
+
