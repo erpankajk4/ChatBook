@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 20%, rgb(36, 143, 0) 25%, transparent 25%),
+    linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
+    radial-gradient(gray 2px, transparent 0);
+  background-size: 30px 30px, 30px 30px;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  footer {
+    flex-shrink: 0;
+  }

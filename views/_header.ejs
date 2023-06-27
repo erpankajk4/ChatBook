@@ -1,0 +1,20 @@
+<header>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CHATBOOK</a>
+        
+        <!-- Checks if user is loggedIn -->
+        <form class="d-flex">
+          <% if(locals.user) { %>
+            <a class="navbar-brand btn btn-outline-warning " href="/profile"><%= locals.user.name.toUpperCase()%></a>
+            <a class="navbar-brand btn btn-outline-warning" href="/sign-out">Sign Out</a>
+            <%} else{%>
+              <a class="navbar-brand btn btn-outline-warning" href="/sign-in">Sign In</a> 
+              <% }%>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+</header>

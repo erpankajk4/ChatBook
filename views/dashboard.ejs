@@ -1,0 +1,9 @@
+    <!-- CSS  -->
+    <link rel="stylesheet" href="/css/dashboard.css">  
+
+    <% if(locals.user) {%>
+      <div class="container d-flex justify-content-center align-items-center h-2" style="height: 400px; width: 50%;">
+        <div><a href="/profile">
+          <button type="class" class="btn btn-success">Update Your Profile</button>       
+        </a></div>
+      <%} %>

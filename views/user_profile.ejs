@@ -1,0 +1,28 @@
+<% if(user.id==profile_user.id) {%>
+  <!-- Form to update profile -->
+  <div class="container mt-4 col-md-4">
+
+    <form action="/update" method="POST" class="shadow-lg mt-2 border border-5 border-light bg-light bg-gradient rounded p-3"
+      style="--bs-border-opacity: 0.5">
+      <h3 class="py-2">Update Profile</h3>
+      <div class="mb-3">
+        <label for="user_name" class="form-label">Name :</label>
+        <input type="text" class="form-control" id="user_name" name="user_name"
+          value="<%= profile_user.name %>" required />
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">New password :</label>
+        <input type="password" class="form-control" id="password" name="password"
+          placeholder="Enter new password" required />
+      </div>
+      <div class="mb-3">
+        <label for="confirm_password" class="form-label">Confirm Password :</label>
+        <input type="password" class="form-control" id="confirm_password" name="confirm_password"
+          placeholder="Enter confirm password" required />
+      </div>
+
+      <button type="submit" class="btn btn-success">Update</button><br>
+      <a href="/dashboard">Back to DashBoard</a>
+    </form>
+  </div>
+<% } %>

@@ -1,0 +1,24 @@
+<div class="shadow-lg border border-5 border-light bg-light bg-gradient d-flex flex-column justify-content-center w-50 mx-auto mt-3 p-4 rounded">
+  <div class="text-center">
+    <h1>SIGN UP</h1>
+  </div>
+
+  <form action="/create" method="POST">
+    <!-- Signup form added -->
+    <%- include('_signupForm') %>
+
+      <div class="text-center mt-3">
+        <button type="submit" class="btn btn-secondary">SIGNUP</button>
+      </div>
+
+      <div class="text-center mt-2">
+        <h5 style="display: inline">Already Have An Account&nbsp;</h5>
+        <a href="/sign-in">SIGN_IN</a>
+      </div>
+
+      <div class="text-center mt-2">
+        <a href="/users/auth/google" class="btn btn-primary google-plus">LOGIN with Google <i
+            class="fa fa-google-plus"></i></a>
+      </div>
+  </form>
+</div>
